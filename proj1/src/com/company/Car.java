@@ -31,6 +31,7 @@ public class Car {
 //    System.out.println("new car created...");
 //  }
 
+  // ctor overloading
   public Car(String type, String model, String color, int speed, int doors) {
     this.type = type;
     this.model = model;
@@ -58,6 +59,8 @@ public class Car {
 
   public static boolean isSpeedLegal(int _speed) {
     // boolean leagl = isthisCarsSpeedLegal(); // ERROR
+    Car renault = new Car("Renault", "diamond", "blue",
+                           4, 200);
     return _speed <= max_speed;
   }
 
