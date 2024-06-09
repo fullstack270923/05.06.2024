@@ -18,7 +18,9 @@ public class Car {
     int speed;
     int doors;
 
-    static int max_speed = 140;
+    //  { type: 'honda', color: 'black', speed: 150,    max_speed: 180 }
+    //  { type: 'mitsubishi', color: 'red', speed: 120, max_speed: 180 }
+    static int max_speed = 180;
 
     // functions
   // CTOR constructor

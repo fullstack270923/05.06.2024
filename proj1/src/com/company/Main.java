@@ -12,7 +12,7 @@ public class Main {
         new Car("honda", "civic", "Red", 5); // no one saves the car
         int x = 1;
         String name = "danny";
-        Car honda = new Car("honda", "civic", "Red", 120, 5);
+        Car honda =  new Car("honda", "civic", "Red", 120, 5);
         honda.speed = 100;
         honda.doors = 5;
         honda.type = "Honda";
